@@ -88,15 +88,9 @@ export default {
     TodoItem,
   },
   data() {
-    let todos = [
-      new Todo("First todo"),
-      new Todo("Second todo"),
-      new Todo("Third todo"),
-    ];
-
     return {
       insertText: "",
-      todos: todos,
+      todos: [],
       allTab: true,
       activeTab: false,
       completedTab: false,
