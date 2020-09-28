@@ -1,0 +1,7 @@
+footer {
+    color: gray;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5px;
+    left: calc(50vw - 150px);
+}
